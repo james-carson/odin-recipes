@@ -18,28 +18,31 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-p, li {
+#nav-left{
+    margin-left: 12px;
+}
+
+#nav-right{
+    border-right: 2px solid;
+    border-color: cornflowerblue;
+}
+
+.nav-link {
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5;
-    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
     background-color: white;
     color: black;
-    border: 2px solid;
+    border-left: 2px solid;
     border-color: cornflowerblue;
-    width: 200px;
     text-align: center;
-    padding: 6px;
+    padding: 6px 12px;
+    margin: 6px auto 0 auto;
+    display: inline-block;
 }
 
-ul{
-    margin: auto;
-    padding: 0 25px
-}
-
-a {
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkslateblue;
-    text-decoration: none;
+a{
+    text-decoration: none; 
+    color: darkslategray;
+    font-weight: bold;
 }
