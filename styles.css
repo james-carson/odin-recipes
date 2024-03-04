@@ -4,8 +4,13 @@ h1 {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
 }
 
 h2 {
@@ -17,11 +22,24 @@ p, li {
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    width: 200px;
+    text-align: center;
+    padding: 6px;
+}
+
+ul{
+    margin: auto;
+    padding: 0 25px
 }
 
 a {
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightgray;
-    color: darkblue;
+    color: darkslateblue;
+    text-decoration: none;
 }
